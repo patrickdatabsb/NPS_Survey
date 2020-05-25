@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>NPS</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Pesquisa NPS</h1>
+      <p>
+        Em uma escala de 0 a 10, o quanto você indicaria a EMPRESA a um amigo ou
+        familiar?
+      </p>
+
+      <div class="widget">
+        <button class="detractor">1</button>
+        <button class="detractor">2</button>
+        <button class="detractor">3</button>
+        <button class="detractor">4</button>
+        <button class="detractor">5</button>
+        <button class="detractor">6</button>
+        <button class="passive">7</button>
+        <button class="passive">8</button>
+        <button class="promoter">9</button>
+        <button class="promoter">10</button>
+      </div>
+
+      <p>
+        Em poucas palavras, descreva o que motivou sua nota sobra a
+        <strong>indicação</strong>
+      </p>
+
+      <textarea name="textarea" id="textarea" cols="100%" rows="10"></textarea>
+      <div id="send-nps">ENVIAR</div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
